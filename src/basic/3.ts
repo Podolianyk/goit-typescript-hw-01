@@ -2,7 +2,7 @@ let result: string | number;
 result = "Hello";
 result = 25;
 
-type EnableORDisable = "enable" | "disable";
-let status: EnableORDisable;
+type EnableOrDisable = "enable" | "disable";
+let status: EnableOrDisable;
 status = "enable";
 status = "disable";
